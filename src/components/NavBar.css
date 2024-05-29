@@ -1,0 +1,27 @@
+.navbar ul{
+  list-style: none;
+  display: flex;
+}
+
+.nav-item{
+  margin: 0 15px;
+}
+
+.nav-item a{
+  color:black;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+.nav-item a::after{
+  content:"";
+  display: block;
+  height: 2px;
+  width:0;
+  background: black;
+  transition:width 0.3s ease;
+}
+
+.nav-item a:hover::after{
+  width:100%;
+}
