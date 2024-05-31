@@ -15,34 +15,11 @@ function App() {
   return (
     <>
     <NavBar/>
-   
-    <div className='container'>
+   <div className='container'>
       <div className='left'>
         <div id="signature">
           Suswetha
         </div>
-      </div>
-      <div className='right'>
-       
-        <div className="myDescription">
-        <p style={nameStyle}>Hello,I am</p>
-        <p><Typing 
-        text={
-          [
-            "React Web Developer",
-            "CS Student",
-            "Enjoy my portfolio"
-          ]
-        }
-        typingSpeed ={10}
-        deletingSpeed={50}
-        /></p>
-        <p style={nameStyle}>Suswetha</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, mollitia aut similique voluptas libero iste fuga perspiciatis praesentium in earum harum voluptatum molestiae tempora cumque at!</p>
-          <p>
-          Saepe sunt velit qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis qui et natus! Iusto velit placeat provident eligendi qui neque non deserunt consequatur, iure, quibusdam numquam dolores beatae. Ipsa, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio, dolores ut eos quae, repudiandae quia voluptate inventore vitae magni distinctio maiores. Praesentium odit saepe quisquam numquam libero? Odit, nulla?</p>
-        </div>
-        
         <div className="social-icons">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="icon" />
@@ -57,9 +34,31 @@ function App() {
             <FontAwesomeIcon icon={faTwitter} className="icon" />
           </a>
         </div>
-
       </div>
-      <img src={myImage} alt="Profile" className="profile-image" />
+
+      <div className='right'>
+        <div className="myDescription">
+        <p style={nameStyle}>Hello,I am</p>
+        <p style={nameStyle}>Suswetha</p>
+        <p><Typing 
+        text={
+          [
+            "React Web Developer",
+            "CS Student",
+            "Enjoy my portfolio"
+          ]
+        }
+        typingSpeed ={10}
+        deletingSpeed={50}
+        /></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, mollitia aut similique voluptas libero iste fuga perspiciatis praesentium in earum harum voluptatum molestiae tempora cumque at!</p>
+        <p>
+          Saepe sunt velit qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis qui et natus! Iusto velit placeat provident eligendi qui neque non deserunt consequatur, iure, quibusdam numquam dolores beatae. Ipsa, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio, dolores ut eos quae, repudiandae quia voluptate inventore vitae magni distinctio maiores. Praesentium odit saepe quisquam numquam libero? Odit, nulla?
+        </p>
+        </div>
+        <img src={myImage} alt="Profile" className="profile-image" />
+      </div>
+      
     </div>
     </>
   );

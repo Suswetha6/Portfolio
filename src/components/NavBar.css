@@ -1,16 +1,31 @@
+.navbar{
+  background-color: rgb(24, 24, 24); 
+  padding: 0;
+  margin: 0;
+  width:100vw;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
 .navbar ul{
   list-style: none;
   display: flex;
+  padding:2px;
+  margin:0;
+  width:20%;
 }
 
 .nav-item{
   margin: 0 15px;
+  
 }
 
 .nav-item a{
-  color:black;
+  
+  color:white;
   text-decoration: none;
   padding: 5px 0;
+
 }
 
 .nav-item a::after{
