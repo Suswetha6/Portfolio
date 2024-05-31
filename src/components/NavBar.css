@@ -33,7 +33,7 @@
   display: block;
   height: 2px;
   width:0;
-  background: black;
+  background: white;
   transition:width 0.3s ease;
 }
 
