@@ -4,6 +4,7 @@ import './Education.css'
 import cap from '/home/suswetha/webdev/src/resources/cap.webp';
 import study from '/home/suswetha/webdev/src/resources/study.webp';
 import NavBar from '../components/NavBar';
+import Socialicons from '../components/Socialicons';
 function Education(){
   return(
     <>
@@ -46,6 +47,8 @@ function Education(){
       <div className='EduImage'>
         <img src={study}/>
       </div>
+      <Socialicons 
+      bgColorIcon ={'orange'}/>
     </div>
     </>
   )

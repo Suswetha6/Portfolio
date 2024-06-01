@@ -2,6 +2,7 @@ import './Home.css';
 import myImage from '/home/suswetha/webdev/src/resources/image.webp';
 import Typing from '../components/Typing';
 import NavBar from "../components/NavBar";
+import Socialicons from '../components/Socialicons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faYoutube, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -14,25 +15,13 @@ function Home(){
   return (
     <>
     <NavBar/>
+    
    <div className='container'>
       <div className='left'>
         <div id="signature">
           Suswetha
         </div>
-        <div className="social-icons">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faGithub} className="icon" />
-          </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faYoutube} className="icon" />
-          </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} className="icon" />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} className="icon" />
-          </a>
-        </div>
+        <Socialicons/>
       </div>
 
       <div className='right'>

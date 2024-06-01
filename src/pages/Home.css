@@ -54,31 +54,24 @@
   max-width: 40%; /* Optional: limit the width of the content */
   margin: auto;
 }
+.myDescription p {
+  padding-top:10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .profile-image {
   position: absolute; 
   top: 50%; 
   left:30vw; 
   transform: translate(-50%, -50%); 
-  
+  padding:0;
   width: 400px; 
   height: 400px;
   border-radius: 50%;
-  border: 5px solid white;
+  
+  border: 5px solid rgb(57, 13, 13);
 }
 
-.social-icons{
-  align-self: flex-end;
-  display: flex;
-  width:20vw;
-  justify-content: space-evenly;
-  position: absolute;
-  left:0;
-  bottom:0;
-  padding:10px 3px;
-  
-  
-}
 .icon{
   color:black;
   width:20px;

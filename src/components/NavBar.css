@@ -13,7 +13,7 @@
   display: flex;
   padding:10px 2px 0 2px ;
   margin:0;
-  width:20%;
+  max-width:50%;
 }
 
 .nav-item{
