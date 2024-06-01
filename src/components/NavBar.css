@@ -4,6 +4,7 @@
   margin: 0;
   width:100vw;
   height: 30px;
+  overflow: hidden;
   display: flex;
   justify-content: flex-end;
 }
