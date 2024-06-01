@@ -1,30 +1,31 @@
 .navbar{
-  background-color: rgb(24, 24, 24); 
+  background-color: black; 
   padding: 0;
   margin: 0;
   width:100vw;
-  height: 30px;
+  height: 50px;
+  overflow: hidden;
   display: flex;
   justify-content: flex-end;
 }
 .navbar ul{
   list-style: none;
   display: flex;
-  padding:2px;
+  padding:10px 2px 0 2px ;
   margin:0;
   width:20%;
 }
 
 .nav-item{
   margin: 0 15px;
-  
+  height:50px;
 }
 
 .nav-item a{
-  
   color:white;
   text-decoration: none;
   padding: 5px 0;
+  margin:0;
 
 }
 
