@@ -56,11 +56,7 @@ function App() {
           Saepe sunt velit qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis qui et natus! Iusto velit placeat provident eligendi qui neque non deserunt consequatur, iure, quibusdam numquam dolores beatae. Ipsa, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio, dolores ut eos quae, repudiandae quia voluptate inventore vitae magni distinctio maiores. Praesentium odit saepe quisquam numquam libero? Odit, nulla?
         </p>
         </div>
-
-        <div className='profilepic'>
-            <img src={myImage} alt="Profile" className="profile-image" />
-         </div>
-        
+        <img src={myImage} alt="Profile" className="profile-image" />
       </div>
       
     </div>
