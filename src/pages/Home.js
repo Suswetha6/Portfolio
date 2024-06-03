@@ -3,8 +3,6 @@ import myImage from '../resources/image.webp';
 import Typing from '../components/Typing';
 import NavBar from "../components/NavBar";
 import Socialicons from '../components/Socialicons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faYoutube, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 function Home(){
   const nameStyle = {
