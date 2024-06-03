@@ -1,8 +1,8 @@
 import './Education.css'
 import Tile from '../components/Tile';
 import './Education.css'
-import cap from '/home/suswetha/webdev/src/resources/cap.webp';
-import study from '/home/suswetha/webdev/src/resources/study.webp';
+import cap from '../resources/cap.webp';
+import study from '../resources/study.webp';
 import NavBar from '../components/NavBar';
 import Socialicons from '../components/Socialicons';
 function Education(){
