@@ -1,8 +1,8 @@
 import "./About.css"
 import NavBar from "../components/NavBar"
 import Socialicons from "../components/Socialicons"
-import walk from "/home/suswetha/webdev/src/resources/walk.webp"
-import study from "/home/suswetha/webdev/src/resources/study.webp";
+import walk from "../resources/walk.webp"
+import study from "../resources/study.webp";
 function About(){
   return(
     <>
