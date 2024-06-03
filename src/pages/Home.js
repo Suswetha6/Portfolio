@@ -1,5 +1,5 @@
 import './Home.css';
-import myImage from '/home/suswetha/webdev/src/resources/image.webp';
+import myImage from '../resources/image.webp';
 import Typing from '../components/Typing';
 import NavBar from "../components/NavBar";
 import Socialicons from '../components/Socialicons';
