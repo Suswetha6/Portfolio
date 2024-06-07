@@ -24,7 +24,7 @@ function Home(){
 
       <div className='right'>
         <div className="myDescription">
-        <p style={nameStyle}>Hello,I am</p>
+        <p style={nameStyle}>Hello, I am</p>
         <p style={nameStyle}>Suswetha</p>
         <p><Typing 
         text={
@@ -37,9 +37,9 @@ function Home(){
         typingSpeed ={10}
         deletingSpeed={50}
         /></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, mollitia aut similique voluptas libero iste fuga perspiciatis praesentium in earum harum voluptatum molestiae tempora cumque at!</p>
+        <p>A CS student passionate about learning new technologies and building useful real-life products</p>
         <p>
-          Saepe sunt velit qui! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis qui et natus! Iusto velit placeat provident eligendi qui neque non deserunt consequatur, iure, quibusdam numquam dolores beatae. Ipsa, accusamus aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo odio, dolores ut eos quae, repudiandae quia voluptate inventore vitae magni distinctio maiores. Praesentium odit saepe quisquam numquam libero? Odit, nulla?
+          I specialize in DSA,Web dev and SQL queries and constantly seeking new oppurtunities to improve on my skills.Explore my portfolio to see my work and get in touch!.
         </p>
         </div>
         <img src={myImage} alt="Profile" className="profile-image" />

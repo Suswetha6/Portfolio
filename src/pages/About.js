@@ -11,8 +11,9 @@ function About(){
       <div className="Aboutleft">
         <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque deleniti quod consequuntur voluptatibus aliquid vitae id excepturi blanditiis, inventore molestias dolore explicabo iusto quae esse, minus facere, earum molestiae odio.
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, voluptatem autem. Omnis at autem amet similique libero dolore, et sapiente a explicabo animi, iure, provident possimus reprehenderit vel laboriosam placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quos rerum enim veritatis adipisci accusantium nam odit ratione beatae esse officia quisquam, eum illum placeat quae eos commodi aliquam velit.
+          I did most of my schooling in Vijayawada,Andhra pradesh.Beacuse i was more interested in pedagogy rather than the traditional learning path , i joined Scaler School Of technology to learn things by doing.So far, i've improved upon Data structures and Algorthims , CS math , Web Developmentv using react.Right now, i am working on improving my skills and to build useful projects and improving my resume.
+          Apart from the academics , i am also actively involved in extra-cirruculars being a passionate classical dancer and the core memeber of the Cultural Club of SST.
+          Feel free to connect with me.Let's chat over a garam cup of chai!!.
         </p>
       </div>
       <div className="Aboutright">

@@ -52,7 +52,7 @@
    /* Optional: some padding for better readability */
   border-radius: 8px; /* Optional: rounded corners */
   max-width: 40%; /* Optional: limit the width of the content */
-  margin: auto;
+  margin: -5vh auto 0 auto;
 }
 .myDescription p {
   padding-top:10px;
