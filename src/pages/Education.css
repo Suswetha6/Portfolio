@@ -10,11 +10,12 @@
 }
 .Educontainer h1{
   color:white;
-  margin:15vh 20vw 2vh 2vw;
+  margin:10vh 20vw 5vh 2vw;
 }
 .tileContainer{
   position: absolute;
-  top:25%;
+  top:20%;
+
 }
 .EduImage{
   flex-grow:1;
